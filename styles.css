@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
 header {
   width: 100%;
 }
@@ -213,5 +214,21 @@ footer ul a:hover {
 }
 footer p{
   text-align: center;
+  
+}
+.dark-mode  {
+  background: black;
+  color: white;
+
+}
+.dark-mode footer{
+  background: black;
+  color: white;
+}
+.dark-mode footer ul li {
+  color: white;
+}
+.dark-mode header ul li{
+  color: white;
 }
 

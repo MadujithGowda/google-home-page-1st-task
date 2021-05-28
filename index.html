@@ -12,7 +12,7 @@
         <ul id="nav_bar">
           <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
           <li class="nav-links"><a href="#">Images</a></li>
-          <li id="sign_in"><a href="#">Sign In</a></li>
+          <li id="sign_in"><a href="#">Sign In</a></li> 
         </ul>  
       </nav>  
     </header>  
@@ -26,7 +26,7 @@
     <div class="form">  
       <form>
         <label for="form-search"></label>
-        <input type="text" id="form-search" placeholder="Search Google or type URL">
+        <input type="text" id="form-search" placeholder="Search on Google ">
       </form>
     </div>  
     
@@ -34,6 +34,14 @@
     <div class= "buttons">  
       <input type="submit" value="Google Search" id="google_search">
       <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+      <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
     </div>
       
     <!-- FOOTER -->
@@ -49,8 +57,10 @@
           <li><a href="#">Settings</a></li>
           
         </ul> 
-        <p> company owned by Madujith</p>
-          <p>&copy Madujith( lol jk)</p>      
+        <p>
+          <a href="#" title="april fool"> Headquaters @Coimbatore</a><br>
+          <a href="#" title="april fool"> &copy Madujith( lol jk)</a> </p>
+            
     </footer>      
   </body>
 </html>
